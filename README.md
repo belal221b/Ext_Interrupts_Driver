@@ -33,7 +33,8 @@ Enables the specified external interrupt.
 void Ext_DisableInterrupt(const uint8_t a_u8InterruptNum)
 ```
 Disables the specified external interrupt.
-```void Ext_SetInterruptFlag(const uint8_t a_u8InterruptNum)
+```
+void Ext_SetInterruptFlag(const uint8_t a_u8InterruptNum)
 ```
 Sets the interrupt flag for the specified interrupt number.
 ```
